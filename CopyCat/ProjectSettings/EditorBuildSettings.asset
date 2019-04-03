@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: Assets/Scenes/CopyCat Game Test 001.unity
+    guid: 9a86ebff0438f094ca240625e658dae9
+  - enabled: 1
+    path: Assets/Scenes/CopyCat Game Test 002.unity
+    guid: 0ae653a9e2e82c2479499e2521a3bf73
+  - enabled: 1
+    path: Assets/Scenes/WinScreen001(Player1).unity
+    guid: 28ff210062b00ac4d8723991de9bd0c9
+  - enabled: 1
+    path: Assets/Scenes/WinScreen002(Player2).unity
+    guid: 1dbfcb2d188948540b1daf0ac0213f67
   m_configObjects: {}

@@ -341,7 +341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &133753856
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -667,6 +667,7 @@ GameObject:
   - component: {fileID: 310531689}
   - component: {fileID: 310531690}
   - component: {fileID: 310531688}
+  - component: {fileID: 310531692}
   - component: {fileID: 310531687}
   m_Layer: 5
   m_Name: Timer Number
@@ -725,7 +726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 50
+  m_Text: 5
 --- !u!222 &310531686
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -755,7 +756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d64158a24f584568b869a4720b9b939, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingValue: 50
+  startingValue: 5
   hasMinValue: 1
   minValue: 0
   hasMaxValue: 0
@@ -786,14 +787,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 310531687}
-        m_MethodName: ActionReloadCurrentScene
-        m_Mode: 1
+        m_MethodName: ActionLoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WinScreen001(Player1)
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: FloatData+FloatDataAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
@@ -860,6 +861,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   limitFloatDecimals: 1
   numDecimals: 1
+--- !u!114 &310531692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 310531683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bd3821893b84fbf837fed2f9c00684, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312938538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1352,14 +1364,14 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 359487047}
-        m_MethodName: ActionReloadCurrentScene
-        m_Mode: 1
+        m_MethodName: ActionLoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WinScreen001(Player1)
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: FloatData+FloatDataAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
