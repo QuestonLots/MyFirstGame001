@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4600043045138404}
   - component: {fileID: 212416937164129762}
   - component: {fileID: 114792340477304146}
-  - component: {fileID: 114689830993282954}
   - component: {fileID: 114321856125153600}
   - component: {fileID: 114863832121991092}
   - component: {fileID: 114047996583678480}
@@ -405,7 +404,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1017184977333932}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49e2868180383496e8840fadc2c20bd5, type: 3}
   m_Name: 
@@ -419,7 +418,8 @@ MonoBehaviour:
         m_MethodName: ActionSpawnObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1672538950840090, guid: bb5fd19ca5e58ad449dfee1f937cabfa,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -449,43 +449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f3d52e530048b1bd56f93666bda57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114689830993282954
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1017184977333932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a5bb4e5dfd0468cae8bda05487b68e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onApplicationQuit:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onDisable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onDestroy:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114321856125153600}
-        m_MethodName: ActionLoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: WinScreen001(Player2)
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114792340477304146
 MonoBehaviour:
   m_ObjectHideFlags: 1

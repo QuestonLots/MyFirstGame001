@@ -127,7 +127,7 @@ GameObject:
   - component: {fileID: 1127172703}
   - component: {fileID: 1127172702}
   m_Layer: 0
-  m_Name: Win screen001(PLAYER 2)
+  m_Name: Win screen002(PLAYER 2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
